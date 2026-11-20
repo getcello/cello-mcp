@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "so.cello/mcp",
+  "description": "Cello MCP server to launch and manage your Referral and Partner program",
+  "title": "Cello",
+  "version": "1.0.2",
+  "websiteUrl": "https://cello.so",
+  "repository": {
+    "url": "https://github.com/getcello/cello-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://cdn.cello.so/cello.so/images/icons/icon-48x48.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "48x48"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cello.so/mcp"
+    }
+  ]
+}
